@@ -1,15 +1,93 @@
 ---
-title: "Two"
+title: "Performances of agroforestry practices in Africa: A meta-analysis using data from 'Evidence for Resilient Agriculture'"
+favicon: ./IMAGES/ERA_logo_circle.png
 description: |
-  Welcome to the website. I hope you enjoy it!
-site: distill::distill_website
+  “Evidence for Resilience Agriculture” (ERA) is a meta-database and analytical engine that has more than 75,000 observations from about 1,400 agricultural studies that have taken place accross the African continent on more than 250 agricultural products. ERA was specifically designed by researchers at The World Agroforestry Centre (ICRAF) to close information loopholes when it comes to the understanding of what agricultural practices works well where -and for who. It includes indicators of productivity, economics, resilience and climate change mitigation outcomes. The real power of ERA is that it's data is linked to detailed co-variables, such as climate, soil and socio-economic data based on geographical coordinates reported in the studies through the growing seasons either reported or inferred from remote sensing. ERA's meta-database makes it possible to generate an outstanding and comprehensive evaluation of how various agroforestry practices perform compared to alternative agricultural practices of non-agroforestry, depending on biophysical and/or socio-economic co-variables. Thereby, facilitating universal or generalizable conclusions on agroforestry through an evidence-based approach, to guide research and development initiatives.   
+author:
+  - first_name: "Kamau"
+    last_name: "Lindhardt"
+    url: https://www.linkedin.com/in/magnus-kamau-lindhardt/
+    affiliation: MSc in Crop and Geo-Information Sciences at Wageningen University, The Netherlands and reseach fellow intern at The World Agroforestry Centre, Nairobi
+    affiliation_url: https://www.linkedin.com/in/magnus-kamau-lindhardt/
+  - name: "Peter Steward"
+    affiliation: CIFOR-ICRAF associate scientist for the CCAFS's Evidence for Resilient Agriculture (ERA) project at The World Agroforestry Centre, Nairobi
+    affiliation_url: https://www.worldagroforestry.org/staff/peter-steward
+  - name: "Todd Rosenstock"
+    affiliation: CIFOR-ICRAF climate change and environmental senior researcher at the CCAFS's Evidence for Resilient Agriculture (ERA) project at The World Agroforestry Centre, Nairobi
+    affiliation_url: https://www.worldagroforestry.org/staff/todd-rosenstock
+  - name: "Namita Joshi"
+    affiliation: CIFOR-ICRAF research associate at The World Agroforestry Centre, Nairobi 
+    affiliation_url: https://www.linkedin.com/in/namita-joshi-848ab1133/?originalSubdomain=ke
+date: "`r Sys.Date()`"
+bibliography: library.bib
+csl: frontiers-in-ecology-and-the-environment.csl
+output: 
+  distill::distill_article:
+    number_sections: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+![](./IMAGES/ERA_sponsors_and_collaborators_index_page.png){width=80%}
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
 
+## Background
+
+This website have been prepared as part of my final outcome of my MSc Internship at the [Evidence for Resilient Agriculture (ERA)](https://era.ccafs.cgiar.org) project at the World Agroforestry Centre, Nairobi, Kenya. 
+
+## Executive Summary
+
+Why agroforestry? Agroforestry is the practice of deliberate growing of woody perennials in association with food crops and pastures. It is frequently framed as an important development concept that is able to augment and enhance agricultural systems by alleviating production deficits and reducing risks in the light of changing climates. The concept is integrally linked with the potential to address multiple complex problems, especially prevaillent on the African continent. Issues such as pressing land management problems, contribution to secure food production, the generation of diversified income for rural households, enrichment of biodiversity through the provision of ecosystem services, and as a potential for carbon storage and other mitigation or adaptation practices. For this reason agroforestry is having a tremendous potential to achive multiple development objectives for socio-ecological sustainability and resilience. A solid understanding of how agroforestry practices in Africa perform compared under (changing) climate and soil conditions is increasingly needed in order to guide agroforestry policies, research and development. 
+
+An executive summary is a short document or section of a document produced for business purposes. It summarizes a longer report or proposal or a group of related reports in such a way that readers can rapidly become acquainted with a large body of material without having to read it all. It usually contains a brief statement of the problem or proposal covered in the major document(s), background information, concise analysis and main conclusions. It is intended as an aid to decision-making by managers and has been described as the most important part of a business plan.
+
+An executive summary differs from an abstract in that an abstract will usually be shorter and is typically intended as an overview or orientation rather than being a condensed version of the full document. Abstracts are extensively used in academic research where the concept of the executive summary is not in common usage. "An abstract is a brief summarizing statement... read by parties who are trying to decide whether or not to read the main document", while "an executive summary, unlike an abstract, is a document in miniature that may be read in place of the longer document".
+
+There is general agreement on the structure of an executive summary. Typically, an executive summary will:
+
+* be approximately 5-10% of the length of the main report
+* be written in language appropriate for the target audience
+* consist of short, concise paragraphs
+* begin with a summary
+* be written in the same order as the main report
+* only include material present in the main report
+* make recommendations
+* provide a justification
+* have a conclusion
+* be readable separately from the main report
+* sometimes summarize more than one document
+
+
+### Key Words
+
+**Agroforestry**, **Agriculture**, **Data Science**, **Resilience**, **Machine Learning**, **Informed Decision-Making**
+
+---------------------------------------
+
+### Foreword 
+
+This has truly been an adventure with steep learning curves, joy, frustrations and ups and downs. I learned a lot!
+
+### Acknowledgments
+
+This internship have been a great learning experience - however very different from what I had imagined initially! Due to the global Covid-19 pandemic, affecting people and organisations in Kenya as well as in The Netherlands, I had to drastically re-align my internship objectives, approaches and expectations. I had to adapt to the the "new normal". A reality of working 100 % online and interaction with my supervisors and colleges only though screens. Had it not been for the remarkable support and passionate exchange of ideas and challenges from the ERA team, I don't know how I would have gotten though. On this regard, I especially want to express my gratitude to Namita Joshi, that has always been encouraging and stimmulative to talk to. Without her insight knowledge on ERA and its structures and organisation, I would not have pulled it off in a similar manner. I also wish to give a big acknowledge and thanks to Peter Steward that has been handling the whole supervisor role tremendously. From his quick responses on issues on Slack, to his sincere effort of getting the best out of the situation by listening and taking tame to discuss potential directions of my internship. Lastly I want to thank Todd Rosenstock for accepting me on the ERA team. This has allowed me to experience the great dynamics and passion of The World Agroforestry Centre. A global truly pioneering organisation when it comes to enabling farmers, researchers and development stakeholders with practice techniques and knowledge to facilitate sustainability and resilience in the much needed food and agricultural systems transformation. I want to thank The World Agroforestry Centre for allowing me to conduct this internship, that offered me an exceptional opportunity to gain new valuable skills in data analytics, machine learning and web-based app development. 
+
+### Shoutout to #OpenSouce
+
+I want to express my deepest gratitude and appreciation for all the people out there who contribute to -and advocate for the Open Source movement. Without the extremely educative and detailed materials made freely available by these awesome people, I would not have been able to do this. I am especially thankful for the Youtube tutorial I have learned a lot from by [Andrew Couch](https://github.com/andrew-couch) and [Julia Silge](https://github.com/juliasilge) on everything from data wrangling in tidyverse to machine learning using tidymodels. And thanks to Andrew I could solve major issues on tidymodels due to his great detailed replies on several emails!  
+
+### Distill for R Markdown 
+
+**This website have been developed using Distill for R Markdown**
+
+Distill is an interactive, publication format for scientific and technical writing, native to the web. Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill> and <https://distill.pub>.
+
+**Global website settings:**
+
+```{r Global website setup, echo=TRUE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#",
+  R.options = list(width = 60)
+  )
 ```
-
