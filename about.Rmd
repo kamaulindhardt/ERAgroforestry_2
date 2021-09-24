@@ -1,10 +1,69 @@
 ---
 title: "About this site"
+favicon: ./IMAGES/ERA_logo_circle.png
 description: |
-  Some additional details about the website
+  The purpose of this website is to tell a story - the story of Evidence for Resilient Agriculture (ERA) through data analysis and visualisation. One of the objectives is to demonstrate how data from ERA can be analysed though inherent package functions (in ERAg) as well as with machine learning using the tidymodels meta-package framework. 
+bibliography: library.bib
+csl: frontiers-in-ecology-and-the-environment.csl
+output: 
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    number_sections: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+# Who is this website for
 
+The website has been designed in a user-friendly way. What user? - you may ask. One that has at leas a basic understanding or interest in agricultural and/or environmental data (analysis). It is the intention that the site will facilitate understanding and usage of ERA data, but most importantly to tell the story of the data in ERA. 
+
+# How to use this website
+
+This website describes the project and meta-database 'Evidence for Risilient Agriculture' (ERA), through working with it's data found in the ERAg package version xx.xx.xx. The website is divided in three parts: Part 1 Introduction, Part 2: Agroforestry Analysis With ERAAnalyze and Part 3: Agroforestry Analysis With Tidymodels Machine Learning Start at Chapter 1 to get an overview of the package. Then feel free to browse the chapter for more information on topics you are interested in.
+
+
+# Who created this website
+
+This website has been designed and developed by Kamau Lindhardt. I am passionate about resilient and sustainable agriculture and land-use systems by levering on the potentials of data -and geospatial sciences and applied agroecological knowledge for people and planet. All ERA data and content provided through the ERAg package is made possible by Todd Rosenstock, Peter Steward, and the rest of the ERA team who have worked for years to gather and synthesize the large amounts of data that make up the ERA meta-database. 
+
+<aside>
+![](./IMAGES/Lindhardt_LinkedIn_pic.png){width=150%}
+</aside>
+
+# Why
+
+At the end of my internship at the ERA project hosted by The World Agroforestry Centre, I found it difficult to find a proper way of consolidating months of work on analysing agroforestry data from ERA, into a tangible and meaningful "product"  
+
+
+# Use of online materials and tools
+
+* Inspiration for the design, structure and content for this website was found in Chapter 3, and Chapter 4 of the book [DATA 3320 Data Science Methodology and Applications](https://bookdown.org/bfischer_su/bookdown-demo/)
+
+* Model evaluation approach - [here](https://www.jeremyjordan.me/evaluating-a-machine-learning-model/)
+
+* Tables created "manually" have been generated in [Table Generator](https://www.tablesgenerator.com/markdown_tables)
+
+* Guide and examples on how to use Distill for Rmarkdown have been found on [Distill for R Markdown](https://rstudio.github.io/distill/) and on [RStudio's AI Blog](https://blogs.rstudio.com/ai/)
+
+* How to use yardstick from tidymodels - here on [this introduction to tidymodels blog](https://algotech.netlify.app/blog/tidymodels/) by R. Dimas Bagas Herlambang.
+
+* Additional information on ERA have been sourced on the [ERA website](https://era.ccafs.cgiar.org)
+
+* The use of R and statistical data science have been found on [R for Data Science](https://r4ds.had.co.nz)
+
+* Inspiration on vizualisations and analysis proceedures have been sourced on [RStudio's R Markdown](https://rmarkdown.rstudio.com) page
+
+* Use of the Rmarkdown language have been sourced on the book [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) and the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+* How to make use of Rmarkdown in RStudio with Version control through Git and GitHub have been studied in this book: [An Introduction to R](https://intro2r.com/github-r.html)
+
+* Inspirations have been drawn from [rstudio4edu - A Handbook for Teaching and Learning with R and RStudio](https://rstudio4edu.github.io/rstudio4edu-book/intro-distill.html)
+
+* The framework for the Combined Outlier Detection Method is used from Evgeni Chasnovski's website called [Question Flow](http://www.questionflow.org/2017/12/26/combined-outlier-detection-with-dplyr-and-ruler/).
+
+* For an overview of RStudio Server Amazon Machine Image (AMI) check out [this piece](https://www.louisaslett.com/RStudio_AMI/) of information on Amazon Machine Image (AMI) made by Louis Aslett, Associate Professor in the Department of Mathematical Sciences at Durham University. Check out [On-Demand Pricing](https://aws.amazon.com/ec2/pricing/on-demand/) for price ranges of Amazon's AWS EC2 machines.
+
+
+
+
+![ERA and ICRAF logo](./IMAGES/ERA_ICRAF_logo.png){width=20%}
