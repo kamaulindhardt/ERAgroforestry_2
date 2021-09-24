@@ -1,0 +1,2470 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Home: Part 1: Introduction</title>
+
+  <meta property="description" itemprop="description" content="This document is a product of my internship at the World Agroforestry Centre, Nairobi, 2021."/>
+
+  <link rel="icon" type="image/png" href="./IMAGES/ERA_logo_circle.png"/>
+
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Home: Part 1: Introduction"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="This document is a product of my internship at the World Agroforestry Centre, Nairobi, 2021."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Home"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Home: Part 1: Introduction"/>
+  <meta property="twitter:description" content="This document is a product of my internship at the World Agroforestry Centre, Nairobi, 2021."/>
+
+  <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=Agroforestry delivers a win-win solution for ecosystem services in sub-Saharan Africa. A meta-analysis;citation_publication_date=2019;citation_publisher=Agronomy for Sustainable Development;citation_volume=39;citation_doi=10.1007/s13593-019-0589-8;citation_issn=17730155;citation_author=Shem Kuyah;citation_author=Cory W. Whitney;citation_author=Mattias Jonsson;citation_author=Gudeta W. Sileshi;citation_author=Ingrid Öborn;citation_author=Catherine W. Muthuri;citation_author=Eike Luedeling"/>
+  <meta name="citation_reference" content="citation_title=Agroforestry delivers a win-win solution for ecosystem services in sub-Saharan Africa. A meta-analysis;citation_publication_date=2019;citation_publisher=Agronomy for Sustainable Development;citation_volume=39;citation_doi=10.1007/s13593-019-0589-8;citation_issn=17730155;citation_author=Shem Kuyah;citation_author=Cory W Whitney;citation_author=Mattias Jonsson;citation_author=Gudeta W Sileshi;citation_author=Ingrid Öborn;citation_author=Catherine W Muthuri;citation_author=Eike Luedeling"/>
+  <meta name="citation_reference" content="citation_title=A Language and Environment for Statistical Computing;citation_publication_date=2018;citation_publisher=Vienna, Austria;citation_volume=2;citation_author=A Language and Environment for Statistical Computing"/>
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","favicon","description","bibliography","csl","output"]}},"value":[{"type":"character","attributes":{},"value":["Part 1: Introduction"]},{"type":"character","attributes":{},"value":["./IMAGES/ERA_logo_circle.png"]},{"type":"character","attributes":{},"value":["This document is a product of my internship at the World Agroforestry Centre, Nairobi, 2021.\n"]},{"type":"character","attributes":{},"value":["library.bib"]},{"type":"character","attributes":{},"value":["frontiers-in-ecology-and-the-environment.csl"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float","toc_depth","number_sections","code_folding"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  <!--radix_placeholder_navigation_in_header-->
+  <meta name="distill:offset" content=""/>
+
+  <script type="application/javascript">
+
+    window.headroom_prevent_pin = false;
+
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        tolerance: 5,
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+
+  <style type="text/css">
+
+  /* Theme (user-documented overrideables for nav appearance) */
+
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #0F2E3D;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: white;
+  }
+
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+
+  .distill-site-header {
+
+  }
+
+  .distill-site-footer {
+
+  }
+
+
+  /* Site Header */
+
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+
+
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+
+  .distill-site-header .title {
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  .distill-site-header .logo {
+    padding: 0;
+  }
+
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+
+
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-dropdown-active {
+    display: block;
+  }
+
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative; min-height: 500px; }
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* Site Footer */
+
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Headroom */
+
+  d-title {
+    padding-top: 6rem;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+
+  .headroom--unpinned {
+    top: -100px;
+  }
+
+  .headroom--pinned {
+    top: 0;
+  }
+
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+
+  </style>
+
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+  <script type="application/javascript">
+
+  function getMeta(metaName) {
+    var metas = document.getElementsByTagName('meta');
+    for (let i = 0; i < metas.length; i++) {
+      if (metas[i].getAttribute('name') === metaName) {
+        return metas[i].getAttribute('content');
+      }
+    }
+    return '';
+  }
+
+  function offsetURL(url) {
+    var offset = getMeta('distill:offset');
+    return offset ? offset + '/' + url : url;
+  }
+
+  function createFuseIndex() {
+
+    // create fuse index
+    var options = {
+      keys: [
+        { name: 'title', weight: 20 },
+        { name: 'categories', weight: 15 },
+        { name: 'description', weight: 10 },
+        { name: 'contents', weight: 5 },
+      ],
+      ignoreLocation: true,
+      threshold: 0
+    };
+    var fuse = new window.Fuse([], options);
+
+    // fetch the main search.json
+    return fetch(offsetURL('search.json'))
+      .then(function(response) {
+        if (response.status == 200) {
+          return response.json().then(function(json) {
+            // index main articles
+            json.articles.forEach(function(article) {
+              fuse.add(article);
+            });
+            // download collections and index their articles
+            return Promise.all(json.collections.map(function(collection) {
+              return fetch(offsetURL(collection)).then(function(response) {
+                if (response.status === 200) {
+                  return response.json().then(function(articles) {
+                    articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                  })
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                              response.status)
+                  );
+                }
+              });
+            })).then(function() {
+              return fuse;
+            });
+          });
+
+        } else {
+          return Promise.reject(
+            new Error('Unexpected status from search index request: ' +
+                        response.status)
+          );
+        }
+      });
+  }
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // get search element (bail if we don't have one)
+    var searchEl = window.document.getElementById('distill-search');
+    if (!searchEl)
+      return;
+
+    createFuseIndex()
+      .then(function(fuse) {
+
+        // make search box visible
+        searchEl.classList.remove('hidden');
+
+        // initialize autocomplete
+        var options = {
+          autoselect: true,
+          hint: false,
+          minLength: 2,
+        };
+        window.autocomplete(searchEl, options, [{
+          source: function(query, callback) {
+            const searchOptions = {
+              isCaseSensitive: false,
+              shouldSort: true,
+              minMatchCharLength: 2,
+              limit: 10,
+            };
+            var results = fuse.search(query, searchOptions);
+            callback(results
+              .map(function(result) { return result.item; })
+            );
+          },
+          templates: {
+            suggestion: function(suggestion) {
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                : '';
+              var html = `
+                <div class="search-item">
+                  <h3>${suggestion.title}</h3>
+                  <div class="search-item-description">
+                    ${suggestion.description || ''}
+                  </div>
+                  <div class="search-item-preview">
+                    ${img}
+                  </div>
+                </div>
+              `;
+              return html;
+            }
+          }
+        }]).on('autocomplete:selected', function(event, suggestion) {
+          window.location.href = offsetURL(suggestion.path);
+        });
+        // remove inline display style on autocompleter (we want to
+        // manage responsive display via css)
+        $('.algolia-autocomplete').css("display", "");
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  });
+
+  </script>
+
+  <style type="text/css">
+
+  .nav-search {
+    font-size: x-small;
+  }
+
+  /* Algolioa Autocomplete */
+
+  .algolia-autocomplete {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: sub;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: 1px #0F2E3D solid;
+    width: 180px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-nav .algolia-autocomplete {
+      display: none;
+      visibility: hidden;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete {
+      display: inline-block;
+      visibility: visible;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+      margin-left: 0;
+      width: 400px;
+      max-height: 400px;
+    }
+  }
+
+  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+
+  .algolia-autocomplete .aa-hint {
+    color: #999;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 550px;
+    max-height: 70vh;
+    overflow-x: visible;
+    overflow-y: scroll;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: -150px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    border-top: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+    cursor: pointer;
+    padding: 5px 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+    border-bottom: none;
+    margin-bottom: 2px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+    display: inline-block;
+    overflow: hidden;
+    height: 2.8em;
+    width: 80%;
+    margin-right: 4%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+    height: 3em;
+    width: auto;
+    display: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+    display: initial;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+    background-color: #eee;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  </style>
+
+
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Part 1: Introduction","description":"This document is a product of my internship at the World Agroforestry Centre, Nairobi, 2021.","authors":[]}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a class="logo" href="https://era.ccafs.cgiar.org/about/">
+<img src="IMAGES/ERA_logo_circle.png" alt="Logo"/>
+</a>
+<a href="index.html" class="title">Home</a>
+</div>
+<div class="nav-right">
+<a href="ABOUT.html">About</a>
+<a href="INTRO.html">PART 1: Introduction</a>
+<a href="ERAANA.html">PART 2: Agroforestry With ERAAnalyze</a>
+<a href="MLTIDYMODELS.html">PART 3: Agroforestry With Tidymodels</a>
+<a href="https://github.com/kamaulindhardt/ERA_Agroforestry_destill_website">
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="https://twitter.com/KamauLindhardt">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="https://www.linkedin.com/in/magnus-kamau-lindhardt/">
+<i class="fa fa-linkedin" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Part 1: Introduction</h1>
+<!--radix_placeholder_categories-->
+<!--/radix_placeholder_categories-->
+<p><p>This document is a product of my internship at the World Agroforestry Centre, Nairobi, 2021.</p></p>
+</div>
+
+
+<div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#intention">Intention</a></li>
+<li><a href="#what-is-evidence-for-resilient-agriculture">What is Evidence for Resilient Agriculture?</a>
+<ul>
+<li><a href="#the-search---where-does-the-data-come-from">The search - where does the data come from?</a></li>
+<li><a href="#the-era-database">The ERA database</a></li>
+<li><a href="#the-analysis-potential">The analysis potential</a></li>
+<li><a href="#response-ratios---the-chosen-effect-size-outcome-in-era">Response Ratios - the chosen effect size outcome in ERA</a></li>
+<li><a href="#structure-of-era---higher-level-concepts-and-hierarchical-mapping">Structure of ERA - higher level concepts and hierarchical mapping</a></li>
+<li><a href="#how-did-era-evolve---looking-back">How did ERA evolve - looking back</a></li>
+</ul></li>
+<li><a href="#why-agroforestry">Why agroforestry?</a></li>
+<li><a href="#what-is-machine-learning---and-why-is-it-needed-to-reveal-patterns-in-era">What is machine learning - and why is it needed to reveal patterns in ERA?</a>
+<ul>
+<li><a href="#what-is-machine-learning">What is machine learning</a>
+<ul>
+<li><a href="#the-difference-between-a-model-and-an-algorithm">The difference between a model and an algorithm</a></li>
+<li><a href="#classes-of-machine-learning-algorithms">Classes of machine learning algorithms</a></li>
+</ul></li>
+<li><a href="#why-machine-learning-is-needed-for-analysing-era-data">Why machine learning is needed for analysing ERA data</a></li>
+</ul></li>
+<li><a href="#what-is-tidymodels">What is tidymodels?</a></li>
+<li><a href="#intention-of-this-document">Intention of this document</a></li>
+<li><a href="#aim-objective-and-research-questions">Aim, objective and research questions</a>
+<ul>
+<li><a href="#aim">Aim</a></li>
+<li><a href="#objectives">Objectives</a></li>
+<li><a href="#research-questions">Research Question(s)</a></li>
+<li><a href="#hypotheses">Hypotheses</a></li>
+</ul></li>
+<li><a href="#methodology">Methodology</a></li>
+</ul>
+</nav>
+</div>
+<h3 id="intention">Intention</h3>
+<p>This website is designed to provide a step-by-step guide to how the ERA dataset can be analysed using inherent R functions that come as part of the ERAg package as well as advanced machine learning methods from the <a href="https://www.tidymodels.org">tidymodels</a> meta-package framework. All analyses is demonstrated using packages within the freely available R statistical environment (<span class="citation" data-cites="Team2013"><a href="#ref-Team2013" role="doc-biblioref">Team R Development Core</a> (<a href="#ref-Team2013" role="doc-biblioref">2018</a>)</span>). The website is divided in three parts:</p>
+<p><strong>1)</strong> Introduction to <strong>a)</strong> Evidence for Resilient Agriculture, <strong>b)</strong> Machine Learning and <strong>c)</strong> the context of the research relevance for analysing agroforestry data from ERA,</p>
+<p><strong>2)</strong> An initial explorortive data analysis to familiarise ourself with the data.</p>
+<p><strong>3)</strong> A comprehensive step-by-step guide on how machine learning analysis using tidymodels can help to get better insights into how climate and soil factors influence the performance of agroforestry in Africa.</p>
+<h1 id="what-is-evidence-for-resilient-agriculture">What is Evidence for Resilient Agriculture?</h1>
+<p><a href="https://era.ccafs.cgiar.org">Evidence for Resilient Agriculture (ERA)</a> is a meta-database designed to explore questions on the performance of agricultural practices, technologies and outcomes. ERA enables users to ask and answer questions about the effects of shifting from one practice or technology to another on indicators of productivity, resilience and climate change mitigation outcomes. It was specifically created to uncover what the data reveals regarding what works where and for whom. ERA makes it possible to perform dynamic and user-defined analysis based on cases such as: Policy Formulation, Investment Design, Financial Product Design &amp; Delivery, Research Prioritisation, Advisory Service Delivery and Development Programming. Thereby making it possible to analyse a great variety of agricultural practices, outcomes and products from a user-centered approach, depending on the questions asked by either development organisations, academic researchers or policy -and decision-makers.</p>
+<aside>
+<ul>
+<li><strong>Productivity:</strong> Is defined in ERA as</li>
+<li><strong>Resilience:</strong> Is defined in ERA as</li>
+<li><strong>Climate Change Mitigation:</strong> Is defined in ERA as</li>
+</ul>
+</aside>
+<div class="layout-chunk" data-layout="l-body-outset">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://here.r-lib.org/'>here</a></span><span class='op'>)</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://wilkelab.org/cowplot/'>cowplot</a></span><span class='op'>)</span>
+
+<span class='fu'><a href='https://wilkelab.org/cowplot/reference/ggdraw.html'>ggdraw</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"ERA_User_Cases_zoomed.png"</span><span class='op'>)</span><span class='op'>)</span> 
+</code></pre>
+</div>
+</details>
+<div class="figure" style="text-align: left"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="INTRO_files/figure-html5/unnamed-chunk-1-1.png" alt="Evidence for Risilient Agriculture (ERA) is a dynamic analytical engine that generates actionable, user-centered decision-making support based on various **ERA Use Cases**. This allows users to fine-tune thier ERA-based analysis based on cases such as: Policy Formulation, Investment Design, Financial Product Design &amp; Delivery, Research Prioritisation, Advisory Service Delivery and Development Programming." width="624" />
+<p class="caption">
+Figure 1: Evidence for Risilient Agriculture (ERA) is a dynamic analytical engine that generates actionable, user-centered decision-making support based on various <strong>ERA Use Cases</strong>. This allows users to fine-tune thier ERA-based analysis based on cases such as: Policy Formulation, Investment Design, Financial Product Design &amp; Delivery, Research Prioritisation, Advisory Service Delivery and Development Programming.
+</p>
+</div>
+</div>
+<h2 id="the-search---where-does-the-data-come-from">The search - where does the data come from?</h2>
+<p>ERA was developed in general accordance with PRISMA guidelines.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Peer-reviewed literature was searched for evidence of the performance of agricultural technologies using a systematic review protocol <span class="citation" data-cites="Rosenstock2016">(<a href="#ref-Rosenstock2016" role="doc-biblioref">Rosenstock <em>et al.</em> 2016</a>)</span>. This search targeted information on 112 technologies used in crop, livestock and tree production and 58 indicators of performance (e.g., yield, net economic returns, soil carbon, etc). The search was conducted in Web of Science and SCOPUS and yielded about 150,000 articles across developing countries (49,000+ in Africa). A study was included in the resulting database if it contained primary, quantitative data and if the following criteria were met: (1) it contained data on both a conventional technology (a control) and an ‘improved’ agricultural technology, (2) it took place in a developing country and (3) it contained information on at least one of the selected performance indicators. Abstracts and titles were reviewed to see if they matched the inclusion criteria and, if so, we conducted a more in-depth analysis of methods. Applying these inclusion criteria resulted in nearly 7,000 articles with relevant data across the entire dataset and nearly 1,400 studies that took place in Africa.</p>
+<p>See the <a href="https://ccafs.cgiar.org/resources/publications/scientific-basis-climate-smart-agriculture-systematic-review-protocol#.Xbg22pozaHs">THE SCIENTIFIC BASIS OF CLIMATE-SMART AGRICULTURE: A SYSTEMATIC REVIEW PROTOCOL</a>, <a href="https://docs.google.com/document/d/1_7XyQlkmI1XLQfzhcRUltGYGjM5myuYOuR6EZXeRegM/edit">Climate-Smart Agriculture Compendium 2019 Reference Guide</a> and the vignette “ERA-Search-Protocols-Draft” in the ERAg package for a detailed explanation on the search protocol.</p>
+<p>To view the ERA Search Protocols run this line in R:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Run this code and open the vignette "ERA-Search-Protocols-Draft".</span>
+ <span class='fu'><a href='https://rdrr.io/r/utils/browseVignettes.html'>browseVignettes</a></span><span class='op'>(</span><span class='st'>"ERAg"</span><span class='op'>)</span> 
+</code></pre>
+</div>
+</div>
+<h2 id="the-era-database">The ERA database</h2>
+<p>Currently ERA contains about 75,000 observations from about 1,400 agricultural studies that have taken place in Africa. Data have been compiled on more than 250 agricultural products. Management practices, outcomes and products are nested within respective hierarchies, allowing ERA to aggregate and disaggregate information. These data are linked to detailed covariates such as climate, soil and socio-economics based on geographical coordinates reported in the studies and seasons reported or inferred from remote sensing.</p>
+<h2 id="the-analysis-potential">The analysis potential</h2>
+<p>ERA supports capacities to analyse the database in many ways. The fundamental analysis follows standard meta-analysis procedures. Meta-analysis<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> is a statistical way to combine research results across studies. Meta-analysis was first designed in medicine, then adopted in ecology, and more recently has been used in agricultural studies.</p>
+<h2 id="response-ratios---the-chosen-effect-size-outcome-in-era">Response Ratios - the chosen effect size outcome in ERA</h2>
+<p>Specifically, ERA calculates response ratios (RR) and effect size statistics. The response ratio is calculated as the log ratio of the mean effect of the treatment (e.g. an improved practice) against the mean effect of the control practice. These response ratios can then be combined to generate an ‘effect size’ for the relationship, which provides an overall estimate of the magnitude and variability of the relationship. When calculating effect sizes, results from different studies are weighted to reduce bias from any given study (e.g., studies that has hundreds of observations are weighted higher than studies with very few observations). ERA weights the results of studies based on their level of precision. Because historical agricultural studies rarely report variance at the level necessary, ERA also weighs results positively based on the number of replications in a given study and negatively based on the number of observations.</p>
+<h2 id="structure-of-era---higher-level-concepts-and-hierarchical-mapping">Structure of ERA - higher level concepts and hierarchical mapping</h2>
+<p>Users inherently need information at different levels of aggregation. Policy-makers, for example, often talk about management practices and outcomes such as agroforestry and productivity, respectively. Extension agents, by contrast, refer to management practices in greater detail, describing, for example, the difference between intercropping<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> with leguminous and non-leguminous trees—both types of agroforestry —and their relative impacts on yield and gross economic returns, both of which are indicators of productivity. The power of ERA is that is can serve both needs. It developed and employed a hierarchical structure for management practices, outcomes and products. This structure, when combined with meta-analysis, allows research results to be aggregated and disaggregated to any level on demanded. These hierarchical structures are in the process of being mapped to other major agricultural ontologies to increase interoperability with other datasets and efforts (e.g. RHoMIS<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> and/or APHLIS<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>)</p>
+<p>In addition to spatial and temporal co-variables, such as biophysical factors and geo-locations (longitude and latitude), there are three high level concepts that are the foundation of ERA’s experiment classification system. These are practices, outcomes and products also called experimental units (EUs). Practices here is shorthand for management practices and technologies which describe agronomic, agroforestry, and livestock interventions, for example, crop rotations, livestock dietary supplements or the like. Outcomes, as they sound, relate to the dependent variables in experiments (e.g., yield, benefit-cost ratios, soil carbon etc.). Products refers to the the species or commodity that the outcome is measured on, for example maize, milk, or meat.</p>
+<p>Each is organized hierarchically, where concepts are nested below and above related concepts. This organization allows the user to aggregate or disaggregate data using these fields to explore different questions, from narrow (e.g., how does a Gliricidia-based alley cropping change maize crop yields?) to broad (e.g., considering all products which practices, on average, improve productivity, resilience and mitigation outcomes?). It also facilitates the user to deliver information at a level relevant for specific users. For example, policy-makers refer to agroforestry broadly while farmers are typically more interested in nuanced (disaggregated) results for species and practices. ERA’s practices, outcomes, and products hierarchies are unique but recently has been mapped to other ontologies including <a href="http://www.fao.org/agrovoc/about">AGROVOC</a>.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> and <a href="https://bigdata.cgiar.org/resources/agronomy-ontology/">AgrO</a>. AgrO<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> to increase future interoperability. These mappings will be available in future releases of ERA. We can view the subordinates of these high level concepts by accessing the datasets PracticeCodes, OutcomesCodes and EUCodes included with the ERAg package. Alternatively the organization of higher level concepts can also be viewed in the ERAConcepts list or in somewhat less detail in the manuscript describing the data.</p>
+<aside>
+<ul>
+<li><strong>Practices</strong> is short for “management practices and technologies” which describe agronomic, agroforestry, and/or livestock interventions.</li>
+<li><strong>Outcomes</strong> is the dependent variables in experiments (e.g., yield, benefit-cost ratios, soil carbon etc.).</li>
+<li><strong>Products</strong> refers to the the species or commodity that the outcome is measured on, for example maize, milk, or meat.</li>
+</ul>
+</aside>
+<p>As explained ERA is structured based on hierarchy. Where practices, outcomes and products have various levels of aggregation. For example practices have <strong>Theme</strong> as the highest aggregated level, followed by <strong>Practice</strong> and then <strong>Sub-Practice</strong>. Outcomes are aggregated as <strong>Pillar</strong>, followed by <strong>Sub-Pillar</strong>, <strong>Indicator</strong> and finally <strong>Sub-Indicator</strong>. Products are aggregated by <strong>Type</strong> and <strong>Sub-Type</strong>.</p>
+<p>Hierarchy and aggregation levels for ERA Observations</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>ERAg</span><span class='fu'>::</span><span class='va'>ERAConcepts</span><span class='op'>$</span><span class='va'>Agg.Levels</span>
+</code></pre>
+</div>
+<pre><code>        Choice Choice.Code      Agg            Label
+1: Observation           O    Index    No. Locations
+2:       Study           S     Code      No. Studies
+3:    Location           L Site.Key No. Observations</code></pre>
+</div>
+<p>Hierarchy and aggregation levels for ERA Practices</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>ERAg</span><span class='fu'>::</span><span class='va'>ERAConcepts</span><span class='op'>$</span><span class='va'>Prac.Levels</span> 
+</code></pre>
+</div>
+<pre><code>        Choice Choice.Code      Prac           Base
+1: Subpractice           S SubPrName SubPrName.Base
+2:    Practice           P    PrName    PrName.Base</code></pre>
+</div>
+<p>Hierarchy and aggregation levels for ERA Outcomes</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>ERAg</span><span class='fu'>::</span><span class='va'>ERAConcepts</span><span class='op'>$</span><span class='va'>Out.Levels</span> 
+</code></pre>
+</div>
+<pre><code>         Choice Choice.Code           Out
+1: Subindicator          SI    Out.SubInd
+2:    Indicator           I       Out.Ind
+3:    Subpillar          SP Out.SubPillar
+4:       Pillar           P    Out.Pillar</code></pre>
+</div>
+<p>Hierarchy and aggregation levels for ERA Products</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>ERAg</span><span class='fu'>::</span><span class='va'>ERAConcepts</span><span class='op'>$</span><span class='va'>Prod.Levels</span>
+</code></pre>
+</div>
+<pre><code>    Choice Choice.Code            Prod
+1: Product           P  Product.Simple
+2: Subtype           S Product.Subtype
+3:    Type           T    Product.Type</code></pre>
+</div>
+<h2 id="how-did-era-evolve---looking-back">How did ERA evolve - looking back</h2>
+<p>ERA has a long history and started as the Climate-Smart Agriculture Compendium in 2012. Since then, the project has gone through many iterations and improvements to clarify the underlying practices, outcomes and product descriptions and hierarchies; built on external databases; prototype data products with users; and develop online capacity. The CSA Compendium (and subsequently ERA) has been principally funded by the CGIAR’s Research Program on Climate Change, Agriculture and Food Security (CCAFS) Flagship on Practices and Technologies. It has received supplementary funding from the European Union, International Fund for Agricultural Development (IFAD), Food and Agriculture Organization of the United Nations, United States Department of Agriculture–Foreign Agricultural Service (USDA–FAS), CCAFS Flagship on Low-emission Development and Center for Forestry Research’s (CIFOR) Evidence-Based Forestry. The Web portal was specifically funded by the EU–IFAD project: Building Livelihoods and Resilience to Climate Change in East and West Africa: Agricultural Research for Development (AR4D) for large-scale implementation of Climate-Smart Agriculture (#2000002575).</p>
+<p><img src="IMAGES/ERA_sponsors_and_collaborators_index_page.png" style="width:70.0%" /></p>
+<h1 id="why-agroforestry">Why agroforestry?</h1>
+<p>Agroforestry is considered as one of the most sustainable intensification practices, and now widely promoted in SSA as it provides low-input, resource-conserving farming approaches that are socially relevant and relate well to livelihoods and ecosystem functions. Agroforestry can help to maintain food supplies in many landscapes in SSA while at the same time increasing their climate resilience. The practice involves deliberate growing of woody perennials in association with food crops and pastures. Agroforestry is viewed as a sustainable alternative to monoculture systems because of its ability to provide multiple ecosystem services. In some areas, agroforestry is preferred over monoculture systems, because it can combine provisioning ecosystem services with environmental benefits. For example, agroforestry can raise carbon stocks in agricultural systems, maintain or improve soil fertility, regulate soil moisture content, control erosion, enhance pollination, and supply food (e.g., fruits and nuts), fuel wood, fodder, medicines, and other products <span class="citation" data-cites="Kuyah2019"><a href="#ref-Kuyah2019" role="doc-biblioref">Kuyah <em>et al.</em></a> (<a href="#ref-Kuyah2019" role="doc-biblioref">2019</a>)</span>. Ecosystem services -and the productivity of agroforests are affected by tree-crop-environment interactions.</p>
+<aside>
+<strong>Agroforestry:</strong> is a collective name for land-use systems and technologies where woody perennials (trees, shrubs, palms, bamboos, etc.) are deliberately used on the same land-management units as agricultural crops and/or animals, in some form of spatial arrangement or temporal sequence <a href="http://www.fao.org/forestry/agroforestry/80338/en/">FAO, 2021</a>.
+</aside>
+<p>These interactions can occur aboveground, for example through interception of radiant energy and rainfall by foliage and moderation of temperatures by canopies or belowground, e.g., in resource use (nutrient, water, space) competition, or complementarity. Primarily, tree-crop-environment interactions influence biomass production, nutrient uptake and availability, storage and availability of water in the soil, water uptake by trees and crops, loss by evapotranspiration, and crop yields. Despite the great number of studies investigating the role of agroforestry practices in ecosystem service provision, evidence is still lacking concerning the overall effects of agroforestry and the influence of biophysical conditions (co-variables) affect crop yield (and soil fertility, erosion control, and water regulation etc.). This makes it difficult to assess the degree to which different biophysical conditions and agroforestry practices can be optimized to agroecological systems, and to anticipate their respective consequences on crop yield. Because agroforestry has the potential to contribute to both climate change mitigation and adaptation by sequestering carbon, reducing greenhouse emissions, enhancing resiliency, and reducing threats while facilitating biodiversity migration to more favourable conditions in the highly fragmented agricultural landscapes, it is a promissing practice to investigate.</p>
+<div class="layout-chunk" data-layout="l-body-outset">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://wilkelab.org/cowplot/reference/ggdraw.html'>ggdraw</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"Agroforestry_win_win.png"</span><span class='op'>)</span><span class='op'>)</span> 
+</code></pre>
+</div>
+</details>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="INTRO_files/figure-html5/unnamed-chunk-2-1.png" alt="Figure from @Kuyah2019 - Agroforestry practices common in Africa. **a** Homegarden (a mosaic landscape with cassava, pawpaw, Mangifera indica L. and Grevillea robusta A.Cunn. ex R.Br. in Uganda). **b** Dispersed intercropping (M. indica in maize-bean intercrop in Malawi). **c** Intercropping with annual crops between widely spaced rows of trees (collard intercropped with G. robusta). **d** Alley cropping (climbing beans planted between hedges of Gliricidia sepium (Jacq.) Kunth ex Walp. in Rwanda)" width="624" />
+<p class="caption">
+Figure 2: Figure from <span class="citation" data-cites="Kuyah2019"><a href="#ref-Kuyah2019" role="doc-biblioref">Kuyah <em>et al.</em></a> (<a href="#ref-Kuyah2019" role="doc-biblioref">2019</a>)</span> - Agroforestry practices common in Africa. <strong>a</strong> Homegarden (a mosaic landscape with cassava, pawpaw, Mangifera indica L. and Grevillea robusta A.Cunn. ex R.Br. in Uganda). <strong>b</strong> Dispersed intercropping (M. indica in maize-bean intercrop in Malawi). <strong>c</strong> Intercropping with annual crops between widely spaced rows of trees (collard intercropped with G. robusta). <strong>d</strong> Alley cropping (climbing beans planted between hedges of Gliricidia sepium (Jacq.) Kunth ex Walp. in Rwanda)
+</p>
+</div>
+</div>
+<h1 id="what-is-machine-learning---and-why-is-it-needed-to-reveal-patterns-in-era">What is machine learning - and why is it needed to reveal patterns in ERA?</h1>
+<h2 id="what-is-machine-learning">What is machine learning</h2>
+<p>Machine learning (ML) is a powerful tool in the arsenal of modelling, especially when we are dealing with large amounts of data with complex relationships and interdependencies. Simply put, machine learning allows the us to feed the potentially immense amounts of ERA data to a computer algorithm and have the algorithm analyse and reveal patterns in our data in an interpretable way based on only the input data. On top of that we can use the algorithms, whether regression or classification, to predict on future scenarios and input data combinations to answer complex questions, such as: How does a certain biophysical co-variable (temperature or precipitation) affect agroforestry outcomes?</p>
+<p>Machine learning isn’t solely the domain of large tech companies or computer scientists. Anyone with basic programming skills can implement machine learning in their work. If you’re a scientist, machine learning can give you extraordinary insights into the phenomena you’re studying. In this guide it is not expected that you are great at math. Although the techniques you’re about to learn are based in math, I’m a firm believer that there are no hard concepts in machine learning. All of the processes we’ll explore together will be explained graphically and intuitively. Machine learning, sometimes referred to as statistical learning, is a sub-field of artificial intelligence (AI) whereby algorithms “learn” patterns in data to perform specific tasks. Although algorithms may sound complicated, they aren’t. In fact, the idea behind an algorithm is not complicated at all. An algorithm is simply a step-by-step process that we use to achieve something that has a beginning and an end. Chefs have a different word for algorithms—they call them “recipes.” At each stage in a recipe, you perform some kind of process, like beating an egg, and then you follow the next instruction in the recipe, such as mixing the ingredients.</p>
+<p>Arthur Samuel, a scientist at IBM, first used the term machine learning in 1959. He used it to describe a form of AI that involved training an algorithm to learn to play the game of checkers. The word learning is what’s important here, as this is what distinguishes machine learning approaches from traditional AI. Traditional AI is programmatic. In other words, you give the computer a set of rules so that when it encounters new data, it knows precisely which output to give. In contrast, in the machine learning approaches we are feeding the computer the data and not the rules, and we allow the computer it self to learn the rules. The advantage of this approach is that the machine can “learn” patterns we didn’t even know existed in the data —and the more data we provide, the better it gets at learning those patterns.</p>
+<div class="layout-chunk" data-layout="l-body-outset">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://wilkelab.org/cowplot/reference/ggdraw.html'>ggdraw</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"AI_ML_DeepLearning.png"</span><span class='op'>)</span>, width <span class='op'>=</span> <span class='fl'>0.3</span><span class='op'>)</span>  <span class='op'>+</span>
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"What_is_ML.png"</span><span class='op'>)</span>, width <span class='op'>=</span> <span class='fl'>0.5</span>, x <span class='op'>=</span> <span class='fl'>0.2</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"Fitting_a_line_intro_to_ML.png"</span><span class='op'>)</span>, width <span class='op'>=</span> <span class='fl'>1</span>, x <span class='op'>=</span> <span class='fl'>0.25</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="INTRO_files/figure-html5/unnamed-chunk-3-1.png" alt="Introduction to Machine Learning" width="672" />
+<p class="caption">
+Figure 3: Introduction to Machine Learning
+</p>
+</div>
+</div>
+<h3 id="the-difference-between-a-model-and-an-algorithm">The difference between a model and an algorithm</h3>
+<p>In practice, we call a set of rules that a machine learning algorithm learns a model. Once the model has been learned, we can give it new observations, and it will output its predictions for the new data. We refer to these as models because they represent real-world phenomena in a simplistic enough way that we and the computer can interpret and understand it. Just as a model of the Eiffel Tower may be a good representation of the real thing but isn’t exactly the same, so statistical models are attempted representations of real-world phenomena but won’t match them perfectly.</p>
+<aside>
+George Box said that <strong>“All models are wrong, but some are useful”</strong>; this refers to the approximate nature of models.
+</aside>
+<p>The process by which the model is learned is referred to as the algorithm. As we discovered earlier, an algorithm is just a sequence of operations that work together to solve a problem. So how does this work in practice? Let’s take a simple example. Say we have two continuous variables, and we would like to train an algorithm that can predict one (the outcome or dependent variable) given the other (the predictor or independent variable). The relationship between these variables can be described by a straight line that can be defined using only two parameters: its slope and where it crosses the y-axis (the y-intercept). An algorithm to learn this relationship could look something like the example in figure 1.4. We start by fitting a line with no slope through the mean of all the data. We calculate the distance each data point is from the line, square it, and sum these squared values. This sum of squares is a measure of how closely the line fits the data. Next, we rotate the line a little in a clockwise direction and measure the sum of squares for this line. If the sum of squares is bigger than it was before, we’ve made the fit worse, so we rotate the slope in the other direction and try again. If the sum of squares gets smaller, then we’ve made the fit better. We continue with this process, rotating the slope a little less each time we get closer, until the improvement on our previous iteration is smaller than some presset value we’ve chosen. The algorithm has iteratively learned the model (the slope and y-intercept) needed to predict future values of the output variable, given only the predictor variable. This example is slightly crude but hopefully illustrates how such an algorithm could work.</p>
+<aside>
+One of the initially confusing but eventually fun aspects of machine learning is that <strong>there is a plethora of different algorithms</strong> to solve the same type of problem. The reason is that different people have come up with slightly different ways of solving the same problem, all trying to improve upon previous attempts. For a given task, it is our job as data scientists to choose which algorithm(s) will learn the best-performing model.
+</aside>
+<p>While certain algorithms tend to perform better than others with certain types of data, no single algorithm will always outperform all others on all problems. This concept is called the no free lunch theorem. In other words, you don’t get something for nothing; you need to put some effort into working out the best algorithm for your particular problem. Data scientists typically choose a few algorithms they know tend to work well for the type of data and problem they are working on, and see which algorithm generates the best-performing model. You’ll see how we do this later in the book. We can, however, narrow down our initial choice by dividing machine learning algorithms into categories, based on the function they perform and how they perform it.</p>
+<h3 id="classes-of-machine-learning-algorithms">Classes of machine learning algorithms</h3>
+<p>All machine learning algorithms can be categorized by their learning type and the task they perform. There are three learning types:</p>
+<ul>
+<li>Supervised</li>
+<li>Unsupervised</li>
+<li>Semi-supervised</li>
+</ul>
+<p>The type depends on how the algorithms learn. Do they require us to hold their hand through the learning process? Or do they learn the answers for themselves? Supervised and unsupervised algorithms can be further split into two classes each:</p>
+<ul>
+<li>Supervised
+<ul>
+<li>Classification</li>
+<li>Regression</li>
+</ul></li>
+<li>Unsupervised
+<ul>
+<li>Dimension reduction</li>
+<li>Clustering</li>
+</ul></li>
+</ul>
+<p>The class depends on what the algorithms learn to do. So we categorize algorithms by how they learn and what they learn to do. But why do we care about this? Well, there are a lot of machine learning algorithms available to us. How do we know which one to pick? What kind of data do they require to function properly? Knowing which categories different algorithms belong to makes our job of selecting the most appropriate ones much simpler.</p>
+<div class="layout-chunk" data-layout="l-body-outset">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://wilkelab.org/cowplot/reference/ggdraw.html'>ggdraw</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"Supervised_and_unsupervised_ML.png"</span><span class='op'>)</span><span class='op'>)</span> 
+</code></pre>
+</div>
+</details>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="INTRO_files/figure-html5/unnamed-chunk-4-1.png" alt="Supervised vs unsupervised Machine Learning" width="624" />
+<p class="caption">
+Figure 4: Supervised vs unsupervised Machine Learning
+</p>
+</div>
+</div>
+<h2 id="why-machine-learning-is-needed-for-analysing-era-data">Why machine learning is needed for analysing ERA data</h2>
+<p>Evidence for Resilient Agriculture (ERA) is the most comprehensive (meta)-database of agro-environmental data in Africa to date. Its unique aspect of generalisability through effect sizes and geo-referenced data observations opens the doors for state-of-the-art analysis across spatio-temporal scales. This makes ERA particularly suitable for pinpointing what agricultural technologies work well where and for understanding how certain agricultural practices, outcomes and products relate to one another. In addition, the latest version of ERA include detailed spatially explicit information on a large number of biophysical factors (e.g. soil and climate), which allows research into for example not only where a certain practice performs well but also potentially why. But inorder to make the required analysis to answer these questions we need powerful algorithms capable of analysing complex patterns across and between dozens of features (also called variables). This is where machine learning comes in. It has enormous potential to do so.</p>
+<h1 id="what-is-tidymodels">What is tidymodels?</h1>
+<p>Many machine learning R packages are well known, with some of the most common being mlr (now <a href="https://mlr3.mlr-org.com">mlr3</a>) and <a href="http://topepo.github.io/caret/index.html">caret</a>. See these excellent blogs (<a href="http://philipppro.github.io/2018-11-9-mlr_vs_caret/">mlr3 vs. caret</a>, <a href="https://pharmacoecon.me/post/2021-05-01-tidymodels-vs-mlr3/">tidymodels vs. mlr3</a> and <a href="https://towardsdatascience.com/caret-vs-tidymodels-how-to-use-both-packages-together-ee3f85b381c">caret vs. tidymodels</a>) for more information and general comparisons between mlr3, caret and tidymodels. Additionally, what <a href="https://scikit-learn.org/stable/">scikit-learn</a> is for Python, tidymodels could be for R. The <a href="https://www.tidymodels.org">tidymodels</a> framework is a collection of packages for modelling and machine learning using tidyverse<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> principles. The core tidymodels packages work together to enable a wide variety of modelling approaches and is developed and maintained by Max Kuhn and the dedicated tidymodels team. The power and advantage of tidymodels compared to its counterparts is that it breaks down the machine learning workflows into multiple stages and provides specialised packages for each stage. This is beneficial for users because of the increased flexibility and possibility it provides, as it provides a standardised interface to various modelling packages, so modelling and predicting becomes a straightforward process.</p>
+<div class="layout-chunk" data-layout="l-body-outset">
+<details>
+<summary>
+Show code
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://wilkelab.org/cowplot/reference/ggdraw.html'>ggdraw</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"tidymodels_packages_description.png"</span><span class='op'>)</span>, width <span class='op'>=</span> <span class='fl'>0.5</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='fu'>here</span><span class='fu'>::</span><span class='fu'><a href='https://here.r-lib.org//reference/here.html'>here</a></span><span class='op'>(</span><span class='st'>"IMAGES"</span>, <span class='st'>"tidymodels_for_ERA.png"</span><span class='op'>)</span>, width <span class='op'>=</span> <span class='fl'>0.4</span>,  x <span class='op'>=</span> <span class='fl'>0.5</span><span class='op'>)</span>  
+</code></pre>
+</div>
+</details>
+<div class="figure" style="text-align: left"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<img src="INTRO_files/figure-html5/unnamed-chunk-5-1.png" alt="Tidymodels meta-package framework" width="768" />
+<p class="caption">
+Figure 5: Tidymodels meta-package framework
+</p>
+</div>
+</div>
+<h1 id="intention-of-this-document">Intention of this document</h1>
+<p>The intention of this report is to provide users and readers with an example-based step-by-step guide on how ERA data potentially can be analysed using machine learning approaches. The idea is that anyone with basic familiarity with R and ERA should be able to perform similar analysis steps on demand using this document as a rigid, guideline to perform any ERA related analysis of there own.</p>
+<h1 id="aim-objective-and-research-questions">Aim, objective and research questions</h1>
+<h2 id="aim">Aim</h2>
+<p>The aim of this document is to provide a step-by-step guide and vignette-like<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> methodology to how users can approach a machine learning data analysis on the ERA data. The idea here is to provide a comprehensive, reproducible and interpretable tool set undermined by good explanations, interesting visualisations and scientific storytelling. While the goal is partly to provide a framework for how users can analyse ERA data using machine learning with the tidymodels approach, the bottom line is to make use of exploitative data analysis and machine learning model building in a real-life example in order to predict agroforestry systems performance within a a set of biophysical co-variables/predictors (soil and climate factors). Such a model can be used to analyse how current and future climates and soils influence agroforestry suitability. Ultimately, use our predictions to make better investment decisions and plan where agroforestry practices are more likely to outperform alternative agricultural practices.</p>
+<h2 id="objectives">Objectives</h2>
+<p>We are going to achieve this ambitious goal by following though a number of objectives. First we are going to perform a comprehensive explorortive data analysis (EDA)<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> of the ERA agroforestry dataset. This will help us to understand the potentials and limitations of the subsequent machine learning<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> modelling and analysis. The second objective is to actually build a machine learning model that can not only predict agroforestry performance = but also give us insights into the important factors contributing to agroforestry performance (compared to a reference agricultural practice). Part of this objective is to provide clear documentations with explanations and reproducible codes and visualisations. Lastly, we are going to take a slightly different turn, and explore the agroforestry data from ERA using a species distribution modelling (SDM)<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> approach. This is going to remain on a experimental level, as to explore a creative angle of using the geo-referenced data in ERA.</p>
+<h2 id="research-questions">Research Question(s)</h2>
+<p>What biophysical factors influence the performances of agroforestry systems and can these factors be used to spatially map suitability of these systems? Where does different agroforestry systems perform better and where do they perform worse?</p>
+<ul>
+<li><p>Sub-question 1: How does biophysical factors relate to agroforestry systems performances?</p></li>
+<li><p>Sub-question 2: How can biophysical factors help to understand agroforestry suitability in the face of climate change and resilience?</p></li>
+<li><p>Sub-question 3: What trade-offs and synergies exist between biophysical factors, management and socio-economic factors, when it comes to agroforestry systems suitability?</p></li>
+</ul>
+<h2 id="hypotheses">Hypotheses</h2>
+<ul>
+<li>Like any agroecosystem<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>, the performances of different agroforestry systems are influenced by the biological, physical and climatic (biophysical) factors given in the environment in which they are.</li>
+<li>Agroforestry systems are complex and diverse but can be classified into broad distinct classes as done in the ERA database based on agroforestry practices and sub-practices.</li>
+</ul>
+<h1 id="methodology">Methodology</h1>
+<p>All analysis, machine learning, documentation and text editing is made using packages within the freely available R statistical environment <span class="citation" data-cites="Team2013"><a href="#ref-Team2013" role="doc-biblioref">Team R Development Core</a> (<a href="#ref-Team2013" role="doc-biblioref">2018</a>)</span> with R version 4.1.1 GUI 1.77 High Sierra through <a href="https://www.rstudio.com/products/rstudio/">RStudio</a> version 1.4.1717. An extensive effort has been made to make all functions and (meta)-data manipulation and analysis outcomes accessible and interpretable to the users/readers of this document. The methods and steps taken in this document are roughly devided in five areas.</p>
+<ol type="1">
+<li><p>a preliminary Systematic Mapping<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> of ERA’s agroforestry data using the functions inherently avavilable in the ERAg package.;</p></li>
+<li><p>A subset of ERA agroforestry data will be made so we only work with agroforestry data that have outcome of crop yield and/or biomass yield. We are using this data to calculate effect sizes on each individual observation of the agroforestry data using the MeanC and MeanT columns in the ERA data. With these a response ratio (RR)<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> as an effect size metric will be calculated to evaluate agroforestry performance. The RR will be used as our model outcome (dependent variable);</p></li>
+<li><p>an exploratory data analysis (EDA) designed to get familiar with the data and identify and deal with abnormalities, relationship patterns in the data and other important aspects of the outcome feature (RR) and the biophysical co-variables (predictor features). In EDA we are going to make use of several packages R created specifically for initial data visualisation, explorortive data analysis and the important aspect of data cleaning and dealing with outliers. Outliers will be excluded from the analysis based on the “extreme outlier removal method,” where response ratios above or below 3 ∗ IQR (interquartile range<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>) are removed;</p></li>
+<li><p>The tidymodels<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> meta-package framework is used to perform all machine learning modelling steps. The methodology will follow the well known and documented workflows of tidymodels:</p></li>
+</ol>
+<ul>
+<li>Model recipies - defining key pre-processing steps on data</li>
+<li>Setting model specifications</li>
+<li>Defining model workflows</li>
+<li>Model (hyper)-parameter tuning</li>
+<li>Selecting best performing models - best (hyper)-parameters</li>
+<li>Finalising model workflow with best performing model (hyper)-parameter settings</li>
+<li>Perform last model fitting using all data (training + testing)</li>
+<li>Model validation/evaluation and performance, e.g. variable importance</li>
+<li>Creating final Ensemble Stacked Model - with a selecction of different high-performing models</li>
+</ul>
+<ol start="5" type="1">
+<li>Lastly we are going to briefly explore the potentials of using SDM to spatially project where on the African continent agroforestry practices perform rellatively better compared to alternative agricultural practices. To do this a set of environmental parameters will be used as the biophysical predictors. Here we are going to use the R packages: <a href="https://onlinelibrary.wiley.com/doi/10.1111/ecog.01881">sdm</a> and <a href="https://www.sciencedirect.com/science/article/pii/S1364815217305303?via%3Dihub">BiodiversityR</a>.</li>
+</ol>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-Kuyah2019" class="csl-entry" role="doc-biblioentry">
+Kuyah S, Whitney CW, Jonsson M, <em>et al.</em> 2019. <span class="nocase">Agroforestry delivers a win-win solution for ecosystem services in sub-Saharan Africa. A meta-analysis</span>. <em>Agronomy for Sustainable Development</em> <strong>39</strong>.
+</div>
+<div id="ref-Rosenstock2016" class="csl-entry" role="doc-biblioentry">
+Rosenstock TS, Lamanna C, Chesterman S, <em>et al.</em> 2016. <span class="nocase">The scientific basis of climate-smart agriculture: A systemic review protocol. CCAFS Working Paper no. 138. Copenhagen, Denmark:</span> <em>CGIAR Research Program on Climate Change, Agriculture and Food Security (CCAFS)</em>: 0–37.
+</div>
+<div id="ref-Team2013" class="csl-entry" role="doc-biblioentry">
+Team R Development Core. 2018. <span class="nocase">A Language and Environment for Statistical Computing</span>. <em>R Foundation for Statistical Computing</em> <strong>2</strong>: https://www.R–project.org.
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p><strong>PRISMA</strong> is an evidence-based minimum set of items for reporting in systematic reviews and meta-analyses. PRISMA primarily focuses on the reporting of reviews evaluating the effects of interventions, but can also be used as a basis for reporting systematic reviews with objectives other than evaluating interventions (e.g. evaluating aetiology, prevalence, diagnosis or prognosis).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><strong>Meta-analysis:</strong> Meta-analysis is intended to test broad hypotheses and arrive at unifying conclusions, meta-analysis is the process of extracting, assembling, and analysing large quantities of data from multiple publications to increase statistical power and uncover explanatory patterns.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p><strong>Intercropping:</strong> The cultivation of more than one crop in the same space at the same time is known as intercropping. Intercropping involves the planting of two or sometimes more species in a mixture at the same time or with one species interplanted during the growth of another species.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p><strong>RHoMIS:</strong> <a href="https://www.rhomis.org/about.html">Rural Household Multi-Indicator Survey</a> was designed to improve the process of gathering information from farming households in the rural developing world. Household surveys are very widely carried out, but the data is rarely comparable, and so the opportunities for learning between individual projects are limited. For these reasons, the tool balances standardisation with flexibility.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p><strong>APHLIS:</strong> <a href="https://www.aphlis.net/en">African Postharvest Losses Information System (APHLIS)</a> is the foremost international effort to collect, analyze and disseminate data on postharvest losses of cereal grains in sub-Saharan Africa. In its latest phase, known as APHLIS+, the service is expanding the range of crops it covers to include legumes and roots and tubers. APHLIS+ includes estimates of the economic and nutritional dimensions of post-harvest loss. APHLIS+ will also improve the interactive tools for accessing loss data and will expand its network of African experts.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p><strong>AGROVOC</strong> is the largest Linked Open Data set about agriculture available for public use and facilitates access and visibility of data across domains and languages. It offers a structured collection of agricultural concepts, terms, definitions and relationships which are used to unambiguously identify resources, allowing standardized indexing processes and making searches more efficient. uses semantic web technologies, linking to other multilingual knowledge organization systems and building bridges between datasets.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p><strong>AgrO</strong> is the Agronomy Ontology, and provides terms from the agronomy domain that are semantically organized and can facilitate the collection, storage and use of agronomic data, enabling easy interpretation and reuse of the data by humans and machines alike.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p><strong>Tidyverse:</strong> is a collection of open source R packages introduced by Hadley Wickham and his team that “share an underlying design philosophy, grammar, and data structures” of tidy data. Characteristic features of tidyverse packages include extensive use of non-standard evaluation and encouraging piping<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p><strong>Vignette:</strong> A vignette in R is a long-form guide to a package (or analysis). Because function and package documentation is great if you know the name of what you need, but it’s useless otherwise. A vignette attempts to write good and clear documentation and most importantly including informative examples – as users don’t often read only documentation; they will instead look at the examples. Vignettes include instructive tutorials, step-by-step guides, demonstrating practical uses of the software with discussion of the interpretation of the results.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p><strong>Exploratory Data Analysis:</strong> Exploratory Data Analysis refers to the critical process of performing initial investigations on data so as to discover patterns,to spot anomalies,to test hypothesis and to check assumptions with the help of summary statistics and graphical representations.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p><strong>Machine Learning:</strong> Machine Learning is the use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyse and draw inferences from patterns in data.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12" role="doc-endnote"><p><strong>Species Distribution Models:</strong> Species distribution models (SDM) use known locations of a species and information on environmental conditions to predict species distributions. SDM use a variety of algorithms to estimate relationships between species locations and environmental conditions and predict and map habitat suitability. SDMs are numerical tools that combine observations of species occurrence or abundance with environmental estimates. They are used to gain ecological and evolutionary insights and to predict distributions across landscapes, sometimes requiring extrapolation in space and time.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13" role="doc-endnote"><p><strong>Agroecosystem:</strong> An agroecosystem is a cultivated ecosystem, generally corresponding to the spatial unit of a farm and whose ecosystem functions are valued by humans in the form of agricultural goods and services. It is thus co-produced by nature and humans.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14" role="doc-endnote"><p><strong>Systematic Mapping:</strong> Systematic Mapping are focused on a visual synthesis of the data and are question based rather than topic based like a scoping review would be. Systematic Mappings are superior when there is an abundance - and a diversity of research data available. They are preferred as a first step, prior to a systematic review in order to identify gaps in a topic area. Systematic Mapping does not attempt to answer a specific question as do systematic reviews, but instead collates, describes and catalogues available evidence (e.g. primary, secondary, theoretical, economic) relating to a topic or question of interest. The included studies can be used to identify evidence for policy-relevant questions, knowledge gaps (to help direct future primary research) and knowledge clusters.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15" role="doc-endnote"><p><strong>Response Ratio:</strong> Response Ratio (RR) is a common effect size metric used to quantify the outcome of experiments for ecological meta-analysis is the response ratio (RR): the log proportional change in the means of a treatment and control group (also sometimes written log(RR) or logRR).<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16" role="doc-endnote"><p><strong>Interquartile Range:</strong> The Interquartile Range (IQR) is the distance from the highest value to the lowest value. The IQR is quite literally just the range of the quartiles: the distance from the largest quartile to the smallest quartile, which is IQR=Q3-Q1.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17" role="doc-endnote"><p><strong>tidymodels:</strong> The tidymodels framework is a collection of packages for modelling and machine learning using tidyverse principles. The tidymodels framework is a package ecosystem, in which all steps of the machine learning workflow are implemented through dedicated R packages. The consistency of these packages ensures their interoperability and ease of use. Most importantly, the framework should make your machine learning workflow easier to understand and faster to implement.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
