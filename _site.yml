@@ -1,12 +1,39 @@
-name: "One"
-title: "Two"
-description: |
-  Two
+name: "ERAgroforestry_website"
+title: "Home"
+author:
+  - first_name: "Magnus Kamau Katana"
+    last_name: "Lindhardt"
+    url: https://www.linkedin.com/in/magnus-kamau-lindhardt/
+    affiliation: Intern at The World Agroforestry Centre, Nairobi & MSc student at Wageningen University, The Netherlands
+    affiliation_url: https://www.linkedin.com/in/magnus-kamau-lindhardt/
+  - name: "Peter Steward"
+    affiliation: CIFOR-ICRAF associate scientist for the CCAFS Evidence for Resilient Agriculture (ERA) project at The World Agroforestry Centre, Nairobi
+    affiliation_url: https://www.worldagroforestry.org/staff/peter-steward
+  - name: "Todd Rosenstock"
+    affiliation: CIFOR-ICRAF climate change & environmental scientist at Evidence for Resilient Agriculture (ERA) project at The World Agroforestry Centre, Nairobi 
+    affiliation_url: https://www.worldagroforestry.org/staff/todd-rosenstock
+  - name: "Namita Joshi"
+    affiliation: CIFOR-ICRAF research associate at The World Agroforestry Centre, Nairobi 
+    affiliation_url: https://www.linkedin.com/in/namita-joshi-848ab1133/?originalSubdomain=ke
+date: "`r Sys.Date()`"
 output_dir: "_site"
 navbar:
+  logo:
+    image: IMAGES/ERA_logo_circle.png
+    href: https://era.ccafs.cgiar.org/about/
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
-      href: about.html
+      href: ABOUT.html
+    - text: "PART 1: Introduction"
+      href: INTRO.html
+    - text: "PART 2: Agroforestry With ERAAnalyze"
+      href: ERAANA.html
+    - text: "PART 3: Agroforestry With Tidymodels"
+      href: MLTIDYMODELS.html
+    - icon: fab fa-github
+      href: https://github.com/kamaulindhardt/ERA_Agroforestry_destill_website
+    - icon: fa fa-twitter
+      href: https://twitter.com/KamauLindhardt
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/in/magnus-kamau-lindhardt/
 output: distill::distill_article
