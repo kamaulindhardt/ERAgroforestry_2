@@ -19,7 +19,7 @@ The website has been designed in a user-friendly way. What user? - you may ask. 
 
 # How to use this website
 
-This website describes the project and meta-database 'Evidence for Risilient Agriculture' (ERA), through working with it's data found in the ERAg package version xx.xx.xx. The website is divided in three parts: Part 1 Introduction, Part 2: Agroforestry Analysis With ERAAnalyze and Part 3: Agroforestry Analysis With Tidymodels Machine Learning Start at Chapter 1 to get an overview of the package. Then feel free to browse the chapter for more information on topics you are interested in.
+This website describes the project and meta-database 'Evidence for Resilient Agriculture' (ERA), through working with it's data found in the ERAg package version xx.xx.xx. The website is divided in four parts: Part 1: Introduction and description, Part 2: Analysing ERA agroforestry data with ERAAnalyze, Part 3: Analysing ERA agroforestry data with the tidymodels machine learning meta-package, and finally a bonus section called Part 4: Analysing the same ERA agroforestry data with the tidymodels workflowsets package - a new package designed to fast and efficiently compare models and model pre-processing steps. If you are new to ERA and tidymodels please start at the introduction (Part 1), but feel free to jump to other parts if needed.  
 
 
 # Who created this website
