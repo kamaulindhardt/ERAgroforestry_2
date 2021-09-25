@@ -22,14 +22,16 @@ navbar:
     image: IMAGES/ERA_logo_circle.png
     href: https://era.ccafs.cgiar.org/about/
   right:
-    - text: "About"
+    - text: "About this site"
       href: ABOUT.html
     - text: "PART 1: Introduction"
       href: INTRO.html
-    - text: "PART 2: Agroforestry With ERAAnalyze"
+    - text: "PART 2: Analysing with ERAAnalyze"
       href: ERAANA.html
-    - text: "PART 3: Agroforestry With Tidymodels"
+    - text: "PART 3: Analysing with Tidymodels"
       href: MLTIDYMODELS.html
+    - text: "PART 4: Analysing with Tidymodels Workflowsets"
+      href: TIDYMODELSWFS.html
     - icon: fab fa-github
       href: https://github.com/kamaulindhardt/ERA_Agroforestry_destill_website
     - icon: fa fa-twitter

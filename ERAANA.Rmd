@@ -1,5 +1,5 @@
 ---
-title: "Part 2: Agroforestry With ERAAnalyze"
+title: "Part 2: ERAAnalyze"
 favicon: ./IMAGES/ERA_logo_circle.png
 description: |
   On this page we are going to get more familiar with the ERA dataset and zoom in specifically on the agroforestry data within ERA. We are going to use a mix of general R packages specifically designed for explorortive data analysis (EDA) as well as inherent functions in the ERAg package, such as ERAComboSplit, ERAHexPlot, PrepareERA and of cause ERAAnalyze. A combined outlier removal approach will be applied the the output data of ERAAnalyze to get a better undestanding of outliers. Ultimately, a visual assessment of the results, from ERAAnalyze, will be made by looking at the reponse ratios of all agroforestry practices across a number of selected outcomes. Press the "Show code" to view the R codes used to perform a given analysis or visualisation output.
